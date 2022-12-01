@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       body{
+           direction: ltr;
+       }
+       hr{
+           color: maroon;
+           width: 80%;
+       }
+       h1,h2{
+           font-size: 50px;
+           color: rgb(199, 25, 25);
+       }
+       p{
+           color: rgb(0, 0, 0);
+           font-size: 35px;
+       }
+       .v{
+           color: red;
+           text-align: center;
+           font-size: 60px;
+       }
+       .p{
+           color: rgb(94, 255, 0);
+           text-align: center;
+           font-size: 35px;
+       }
+        .a{
+            background-color: hsl(0, 71%, 8%);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: ivory;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .b{
+            background-color:hsl(0, 89%, 43%);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: rgb(54, 238, 229);
+            font-size: 30px;
+            padding: 10px;
+        }
+        .c{
+            background-color: hsl(175, 89%, 43%);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: rgb(219, 53, 24);
+            font-size: 30px;
+            padding: 10px;
+        }
+        .d{
+            background-color: hsl(110, 88%, 49%);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: rgb(5, 39, 37);
+            font-size: 30px;
+            padding: 10px;
+        }
+        .e{
+            background-color:hsl(258, 87%, 50%);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: rgb(199, 240, 16);
+            font-size: 30px;
+            padding: 10px;
+        }
+        .f1{background-color: rgba(36, 6, 6, 0.993);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: ivory;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .f2{background-color: rgba(36, 6, 6, 0.815);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: ivory;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .f3{background-color: rgba(36, 6, 6, 0.658);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: ivory;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .f4{background-color: rgba(36, 6, 6, 0.555);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: ivory;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .f5{background-color: rgba(36, 6, 6, 0.315);
+            height: 50px;
+            position: relative;
+            text-align: center;
+            margin: 5px;
+            color: ivory;
+            font-size: 30px;
+            padding: 10px;
+        }
+        #q{
+            border: 5px dotted gray;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            width: 98%;
+            align-items: center;
+        }
+    </style>
+    <title>HSL Colors vs RGBA Value </title>
+</head>
+<body>
+    <div class="v">HSL Colors<p class="p">vs</p>RGBA Value</div>
+    <hr>
+    <div id="q">
+        <div class="a">
+            background-color: hsl(0, 71%, 8%);
+        </div>
+        <div class="b">
+            background-color: hsl(0, 89%, 43%);
+        </div>
+        <div class="c">
+            background-color: hsl(175, 89%, 43%);
+        </div>
+        <div class="d">
+            background-color: hsl(110, 88%, 49%);
+        </div>
+        <div class="e">
+            background-color: hsl(258, 87%, 50%);
+        </div>
+    </div>
+    <hr>
+    <h1>HSL Colors</h1>
+    <p>HSL stands for hue, saturation, and lightness.</p>
+    <h2>Hue</h2>
+    <p>Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.</p>
+    <h2>Saturation</h2>
+    <p>Saturation is a percentage value; 0% means a shade of gray and 100% is the full color.</p>
+    <h2>Lightness</h2>
+    <p>Lightness is also a percentage; 0% is black, 100% is white.</p>
+    <hr>
+    <div id="q">
+        <div class="f1">
+            background-color:rgba(36, 6, 6, 0.993);
+        </div>
+        <div class="f2">
+            background-color: rgba(36, 6, 6, 0.815);
+        </div>
+        <div class="f3">
+            background-color: rgba(36, 6, 6, 0.658);
+        </div>
+        <div class="f4">
+            background-color: rgba(36, 6, 6, 0.555);
+        </div>
+        <div class="f5">
+            background-color: rgba(36, 6, 6, 0.315);
+        </div>
+    </div>
+    <hr>
+    <h1>RGBA Value</h1>
+    <h1>rgba(red, green, blue, alpha)</h1>
+    <p>RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.</p>
+    <p>An RGB color value is specified with: rgb(red, green, blue).</p>
+    <p>Each parameter (red, green, and blue) defines the intensity of the color as an integer between 0 and 255.</p>
+    <p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)</p>
+</body>
+</html>
